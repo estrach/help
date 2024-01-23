@@ -100,7 +100,7 @@ git_help () {
     echo "| Add a tag:                                  | git tag -a v1.4 -m \"my version 1.4\"                       | Requires pushing the tag"
     echo "| Push tag:                                   | git push --set-upstream origin tags/<TAG>                 |"
     echo "| View all tags:                              | git tag                                                   |"
-    echo "| View all branches:                          | git branch                                                |"
+    echo "| View all branches including remote          | git branch -a                                             |"
     echo "| Switch to branch, commit or tag:            | git checkout <BRANCH|COMMIT_HASH|tags/TAG>                |"
     echo "| Create and switch to a new branch:          | git checkout -b <BRANCH>                                  | Requires pushing the new branch"
     echo "| Push new branch:                            | git push --set-upstream origin <BRANCH>                   |"
