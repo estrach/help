@@ -23,6 +23,7 @@ tmux_help () {
     echo "| <CTRL + A> X                | Kill pane"
     echo "| <CTRL + A> \"                | Split veritically"
     echo "| <CTRL + A> %                | Split horizontally"
+    echo "| <CTRL + A> Z                | Zoom in/out on the current pane"
     echo ""
     echo "CONSOLE COMMANDS"
     echo "These can be run from the console or via the command line with the tmux cli"
