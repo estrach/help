@@ -118,6 +118,7 @@ git_help () {
     echo "| Show diff ignoring whitespace changes       | git diff --ignore-all-space                               |"
     echo "| Show diff between tags or commits           | git diff <TAG1|COMMIT1|BRANCH1>..<TAG2|COMMIT2|BRANCH2>   | Also works with log"
     echo "| Show diff with progress through diff        | git -P diff main --color=always | less -r -M              | Uses less to display viewing progress"
+    echo "| Show diff between branches for file         | git diff <BRANCH>..main -- <FILENAME>                     | Show the diff between BRANCH and main for FILENAME"
     echo "| Apply patch without whitespace changes      | git apply --reject --whitespace=fix <PATCH_FILE>          |"
     echo "| Revert changes to commit hash               | git diff HEAD <COMMIT_HASH> | git apply                   | Can also be used to apply changes between commits"
     echo "| Rewrite commit history                      | git commit --amend                                        |"
