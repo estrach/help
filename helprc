@@ -36,6 +36,8 @@ tmux_help () {
     echo "| kill-pane                                          |"
     echo "| kill-window                                        |"
     echo "| kill-session                                       |"
+    echo "| move-window -s \$SESSION_NAME:\$INDEX                | Move the named session window to the"
+    echo "|                                                    | current session"
     echo "| splitw                                             | split vertically"
     echo "| splitw -h                                          | split horizontally"
     echo "| :resize-pane -D                                    | Resizes the current pane down"
