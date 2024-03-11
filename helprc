@@ -134,3 +134,16 @@ git_help () {
     echo "| Stash only unstaged changes                 | git stash push --keep-index                               |"
     echo "| Set the submodules to match the root        | git submodule update                                      |"
 }
+
+misc_help () {
+    echo "| Action                         | Command                                                                         | Notes |"
+    echo "|--------------------------------+---------------------------------------------------------------------------------+-------|"
+    echo "| Create a tarball               | tar -czvf filename.tar.gz /path/to/dir1                                         |       |"
+    echo "| List contents of tarball       | tar -ztvf projects.tar.gz                                                       |       |"
+    echo "| Extract tarball                | tar -xzvf projects.tar.gz                                                       |       |"
+    echo "| Create copy of disc            | dd if=/dev/sda of=output.img                                                    |       |"
+    echo "| Gen ISO image                  | genisoimage -v -J -r -V MY_DISK_LABEL -o /home/user/file.iso /home/user/for_iso |       |"
+    echo "| Directory size                 | du -sh /path/to/dir                                                             |       |"
+    echo "| Mount directory over directory | mount -o bind /src/dir /dst/dir                                                 |       |"
+    echo "| Mount media                    | mount /dev/sda1 /dst/dir                                                        |       |"
+}
