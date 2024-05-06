@@ -160,4 +160,16 @@ misc_help () {
     echo "| Directory size                 | du -sh /path/to/dir                                                             |       |"
     echo "| Mount directory over directory | mount -o bind /src/dir /dst/dir                                                 |       |"
     echo "| Mount media                    | mount /dev/sda1 /dst/dir                                                        |       |"
+    echo "| Make a sound                   | echo $'\a'                                                                      |       |"
+}
+
+yocto_help () {
+    echo "Quick start: https://docs.yoctoproject.org/brief-yoctoprojectqs/index.html"
+    echo "git clone git://git.yoctoproject.org/poky"
+    echo "cd poky"
+    echo "source oe-init-build-env"
+    echo "bitbake core-image-sato"
+    echo "devtool modify openssh"
+    echo "simulate: runqemu qemux86-64runqemu qemux86-64"
+    echo "oe-pkgdata-util find-path <FILE_PATH_IN_ROOTFS>"
 }
