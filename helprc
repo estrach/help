@@ -185,4 +185,5 @@ nvim_help () {
     echo "| Diff two split                   | :windo diffthis        |       |"
     echo "| Turn off diff                    | :windo diffoff         |       |"
     echo "| Get the contents of a folder     | :r !tail -n +1 <DIR>/* |       |"
+    echo "| Get the path of the current file | :echo @%               |       |"
 }
