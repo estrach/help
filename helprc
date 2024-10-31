@@ -28,6 +28,7 @@ tmux_help () {
     echo "| <CTRL + A> %                | Split horizontally"
     echo "| <CTRL + A> Z                | Zoom in/out on the current pane"
     echo "| <CTRL + A> <SHIFT + L>      | Last session"
+    echo "| <CTRL + A> <ALT + 2>        | Resize all panes equally"
     echo ""
     echo "CONSOLE COMMANDS"
     echo "These can be run from the console or via the command line with the tmux cli"
@@ -147,6 +148,7 @@ git_help () {
     echo "| Get list of all previous git actions        | git reflog                                                |"
     echo "| Stash only unstaged changes                 | git stash push --keep-index                               |"
     echo "| Set the submodules to match the root        | git submodule update                                      |"
+    echo "| Clone only the top level (no history)       | git clone --depth 1 <repository_url>                      |"
 }
 
 misc_help () {
