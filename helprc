@@ -191,7 +191,7 @@ nvim_help () {
     echo "| Get the path of the current file   | :echo @%               |                  |"
     echo "| Bind the scroll of L and R pannels | :set scrollbind        |                  |"
     echo "| Line numbers                       | :set nu                |                  |"
-    echo "| Line numbers off                   | :set nonu                |                  |"
+    echo "| Line numbers off                   | :set nonu              |                  |"
     echo "| Next table entry                   | ]|                     |                  |"
     echo "| Next git change hunk               | ]c                     |                  |"
     echo "| Next spelling mistake              | ]s                     |                  |"
@@ -201,7 +201,7 @@ nvim_help () {
     echo "|                                    | cr- dash-case          |                  |"
     echo "|                                    | cr. dot.case           |                  |"
     echo "| Surround with                      | ysiw<whatever>         | vim-surround     |"
-    echo "| Delete surrounding \"parenthesis\"     | ds\"                    |                  |"
+    echo "| Delete surrounding \"parenthesis\"   | ds\"                    |                  |"
     echo "| Change (parenthesis) to '          | cs('                   |                  |"
 }
 
