@@ -209,6 +209,7 @@ nvim_help () {
     echo "| Surround with                      | ysiw<whatever>         | vim-surround     |"
     echo "| Delete surrounding \"parenthesis\"   | ds\"                    |                  |"
     echo "| Change (parenthesis) to '          | cs('                   |                  |"
+    echo "| Toggle relative line numbers       | :set relativenumber!   |                  |"
     echo ""
     echo "nvim log location: ~/.local/state/nvim/log"
 }
