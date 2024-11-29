@@ -178,6 +178,9 @@ misc_help () {
     echo "| Get a core dump                 | ulimit -c unlimited                                                             | dump to ~ |"
     echo "| Dump to /tmp/core               | echo \"/tmp/core\" > /proc/sys/kernel/core_pattern                                |           |"
     echo "| Ripgrep include only file types | rg aes -g '*.{bb,xml}'                                                          |           |"
+    echo "| Background a task               | <CTRL> + z                                                                      |           |"
+    echo "| Foreground a task               | fg                                                                              |           |"
+    echo "| List background task            | jobs                                                                            |           |"
 }
 
 yocto_help () {
