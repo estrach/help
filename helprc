@@ -2,6 +2,17 @@
 # Quick help
 ################################################################################
 
+help () {
+    echo "Defined help commands from github.com:estrach/help.git:"
+    echo "tmux_help"
+    echo "screen_help"
+    echo "git_help"
+    echo "misc_help"
+    echo "yocto_help"
+    echo "nvim_help"
+    echo "useful_snippets"
+}
+
 tmux_help () {
     echo "Help in screen CTRL + A then ?"
     echo "Control commands in tmux are used <CTRL + A> (note this has been changed from"
