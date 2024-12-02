@@ -221,6 +221,7 @@ nvim_help () {
     echo "|                                    | cr- dash-case          |                  |"
     echo "|                                    | cr. dot.case           |                  |"
     echo "| Surround with                      | ysiw<whatever>         | vim-surround     |"
+    echo "| Surround with brackets             | Sb                     | vim-surround     |"
     echo "| Delete surrounding \"parenthesis\"   | ds\"                    |                  |"
     echo "| Change (parenthesis) to '          | cs('                   |                  |"
     echo "| Toggle relative line numbers       | :set relativenumber!   |                  |"
