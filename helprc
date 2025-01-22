@@ -198,6 +198,7 @@ nvim_help () {
     echo "| Action                             | Example                | Notes            |"
     echo "|------------------------------------+------------------------+------------------|"
     echo "| Reverse the line order in neovim   | :%!tac                 |                  |"
+    echo "| Paste the contents of a file       | :r index.html          |                  |"
     echo "| Reverse selection                  | :'<,'>!tac             |                  |"
     echo "| Write out selection                | :'<,'>w! filename.txt  |                  |"
     echo "| Find and replace                   | :%s/<FIND>/<REPLACE>/g | Add `c` to the   |"
