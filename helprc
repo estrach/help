@@ -181,6 +181,7 @@ misc_help () {
     echo "| Background a task               | <CTRL> + z                                                                      |           |"
     echo "| Foreground a task               | fg                                                                              |           |"
     echo "| List background task            | jobs                                                                            |           |"
+    echo "| View services using ports       | netstat -tulp                                                                   |           |"
 }
 
 yocto_help () {
