@@ -202,7 +202,7 @@ nvim_help () {
     echo "| Paste the contents of a file       | :r index.html          |                  |"
     echo "| Reverse selection                  | :'<,'>!tac             |                  |"
     echo "| Write out selection                | :'<,'>w! filename.txt  |                  |"
-    echo "| Find and replace                   | :%s/<FIND>/<REPLACE>/g | Add `c` to the   |"
+    echo "| Find and replace                   | :%s/<FIND>/<REPLACE>/g | Add \`c\` to the   |"
     echo "|                                    |                        | end to request   |"
     echo "|                                    |                        | confirmation     |"
     echo "| Delete lines containing            | :g/profile/d           |                  |"
