@@ -229,6 +229,8 @@ nvim_help () {
     echo "| Toggle relative line numbers       | :set relativenumber!   |                  |"
     echo "| Create list of incrementing nums   | <C-v>I0 <ESC>gvg<C-a>  | Creates column of|"
     echo "|                                    |                        | 0s and increments|"
+    echo "| Write the contents of a folder to  | :r !find ~/sandbox/cef-build -type f -exec tail -n +1 {} + | |"
+    echo "| the current file                   |                        |                  |"
     echo ""
     echo "nvim log location: ~/.local/state/nvim/log"
 }
