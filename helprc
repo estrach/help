@@ -4,16 +4,16 @@
 
 help () {
     echo "Defined help commands from github.com:estrach/help.git:"
-    echo "tmux_help"
-    echo "screen_help"
-    echo "git_help"
-    echo "misc_help"
-    echo "yocto_help"
-    echo "nvim_help"
-    echo "useful_snippets"
+    echo "help_tmux"
+    echo "help_screen"
+    echo "help_git"
+    echo "help_misc"
+    echo "help_yocto"
+    echo "help_nvim"
+    echo "help_useful_snippets"
 }
 
-tmux_help () {
+help_tmux () {
     echo "Help in screen CTRL + A then ?"
     echo "Control commands in tmux are used <CTRL + A> (note this has been changed from"
     echo "the default of <CTRL + B>) followed by a another key.  Some useful commands are:"
@@ -77,7 +77,7 @@ tmux_help () {
     echo "the current session it is necessary to use a lock file"
 }
 
-screen_help () {
+help_screen () {
     echo "Help in screen CTRL + A then ?"
     echo "Control commands in screen are used <CTRL + A> followed by a another key.  Some useful commands are:"
     echo "| COMMAND                     | ACTION"
@@ -115,7 +115,7 @@ screen_help () {
     echo "| close_ticket_session                            | Remove build folder and close <STY> session"
 }
 
-git_help () {
+help_git () {
     echo "# Git reset command flow"
     echo "+------------------------------------------------------------------------------------------------------------+"
     echo "| *Local Git Repo*              ^          +            +                +                 +                 |"
@@ -162,7 +162,7 @@ git_help () {
     echo "| Clone only the top level (no history)       | git clone --depth 1 <repository_url>                      |"
 }
 
-misc_help () {
+help_misc () {
     echo "| Action                          | Command                                                                         | Notes     |"
     echo "|---------------------------------+---------------------------------------------------------------------------------+-----------|"
     echo "| Create a tarball                | tar -czvf filename.tar.gz /path/to/dir1                                         |           |"
@@ -184,7 +184,7 @@ misc_help () {
     echo "| View services using ports       | netstat -tulp                                                                   |           |"
 }
 
-yocto_help () {
+help_yocto () {
     echo "Quick start: https://docs.yoctoproject.org/brief-yoctoprojectqs/index.html"
     echo "git clone git://git.yoctoproject.org/poky"
     echo "cd poky"
@@ -195,7 +195,7 @@ yocto_help () {
     echo "oe-pkgdata-util find-path <FILE_PATH_IN_ROOTFS>"
 }
 
-nvim_help () {
+help_nvim () {
     echo "| Action                             | Example                | Notes            |"
     echo "|------------------------------------+------------------------+------------------|"
     echo "| Reverse the line order in neovim   | :%!tac                 |                  |"
@@ -236,7 +236,7 @@ nvim_help () {
     echo "nvim log location: ~/.local/state/nvim/log"
 }
 
-useful_snippets () {
+help_useful_snippets () {
     echo "----------------------------------------------------------------------------------------"
     echo " # C backtrace"
     echo "----------------------------------------------------------------------------------------"
